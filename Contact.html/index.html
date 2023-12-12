@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form - Dwayne Jarrett Voting</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+
+    <!-- Form Section -->
+    <form action="" method="POST">
+
+        <!-- Text Input - Name -->
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" placeholder="Enter your name" />
+
+        <!-- Text Input - City -->
+        <label for="City">City:</label>
+        <input type="text" id="City" name="City" placeholder="Enter your city" />
+
+        <!-- Text Input - Zip Code -->
+        <label for="ZipCode">Zip Code:</label>
+        <input type="text" id="ZipCode" name="ZipCode" placeholder="Enter your zip code" />
+
+        <!-- Checkbox - Disclaimer Acknowledgement -->
+        <label for="Waiver">Disclaimer Acknowledgement:</label>
+        <input type="checkbox" id="Waiver" name="Confirmed" />
+
+        <!-- Drop-down Control -->
+        <label for="ContactReason">Contact Reason:</label>
+        <select id="ContactReason" name="ContactReason">
+            <option value="general">General Inquiry</option>
+            <option value="support">Technical Support</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+        </select>
+
+        <!-- Text Area - Details -->
+        <label for="Details">Details:</label>
+        <textarea id="Details" name="Details" rows="5" cols="60" placeholder="Please type your request here."></textarea>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Send" />
+
+    </form>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; Copyright 2023</p>
+    </footer>
+
+</body>
+</html>
